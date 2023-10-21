@@ -18,6 +18,17 @@ namespace BusinessObjects
         public byte? CustomerStatus { get; set; }
         public string Password { get; set; }
 
+        public Customer(int customerId, string customerName, string telephone, string email, DateTime? customerBirthday, byte? customerStatus, string password)
+        {
+            CustomerId = customerId;
+            CustomerName = customerName;
+            Telephone = telephone;
+            Email = email;
+            CustomerBirthday = customerBirthday;
+            CustomerStatus = customerStatus;
+            Password = password;
+        }
+
         public virtual ICollection<RentingTransaction> RentingTransactions { get; set; }
     }
 }

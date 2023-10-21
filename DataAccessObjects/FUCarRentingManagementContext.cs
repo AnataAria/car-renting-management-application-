@@ -7,23 +7,18 @@ using BusinessObjects;
 
 namespace DataAccessObjects
 {
-    public partial class FUCarRentingManagementContext : DbContext
+    public partial class FUCarRentingManagementContext<T> : DbContext where T : class
     {
         public FUCarRentingManagementContext()
         {
         }
 
-        public FUCarRentingManagementContext(DbContextOptions<FUCarRentingManagementContext> options)
+        public FUCarRentingManagementContext(DbContextOptions<FUCarRentingManagementContext<T>> options)
             : base(options)
         {
         }
 
-        public virtual DbSet<CarInformation> CarInformations { get; set; }
-        public virtual DbSet<Customer> Customers { get; set; }
-        public virtual DbSet<Manufacturer> Manufacturers { get; set; }
-        public virtual DbSet<RentingDetail> RentingDetails { get; set; }
-        public virtual DbSet<RentingTransaction> RentingTransactions { get; set; }
-        public virtual DbSet<Supplier> Suppliers { get; set; }
+        public virtual DbSet<T> Entity { get; set; }
         private string GetConnectionString()
         {
             IConfiguration configuration = new ConfigurationBuilder()

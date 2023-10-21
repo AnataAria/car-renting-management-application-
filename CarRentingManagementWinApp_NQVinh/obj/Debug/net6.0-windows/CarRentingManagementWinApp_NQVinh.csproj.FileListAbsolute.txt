@@ -61,3 +61,9 @@ E:\FPT\FALL2023\PRN211\Assignment\Car Renting Management Application\Ass02Soluti
 E:\FPT\FALL2023\PRN211\Assignment\Car Renting Management Application\Ass02Solution_NET1705_NguyenQuangVinh\CarRentingManagementWinApp_NQVinh\obj\Debug\net6.0-windows\CarRentingManagementWinApp_NQVinh.pdb
 E:\FPT\FALL2023\PRN211\Assignment\Car Renting Management Application\Ass02Solution_NET1705_NguyenQuangVinh\CarRentingManagementWinApp_NQVinh\obj\Debug\net6.0-windows\CarRentingManagementWinApp_NQVinh.genruntimeconfig.cache
 E:\FPT\FALL2023\PRN211\Assignment\Car Renting Management Application\Ass02Solution_NET1705_NguyenQuangVinh\CarRentingManagementWinApp_NQVinh\obj\Debug\net6.0-windows\ref\CarRentingManagementWinApp_NQVinh.dll
+E:\FPT\FALL2023\PRN211\Assignment\Car Renting Management Application\Ass02Solution_NET1705_NguyenQuangVinh\CarRentingManagementWinApp_NQVinh\bin\Debug\net6.0-windows\Dapper.dll
+E:\FPT\FALL2023\PRN211\Assignment\Car Renting Management Application\Ass02Solution_NET1705_NguyenQuangVinh\CarRentingManagementWinApp_NQVinh\bin\Debug\net6.0-windows\LanguageExt.Core.dll
+E:\FPT\FALL2023\PRN211\Assignment\Car Renting Management Application\Ass02Solution_NET1705_NguyenQuangVinh\CarRentingManagementWinApp_NQVinh\bin\Debug\net6.0-windows\LanguageExtCommon.dll
+E:\FPT\FALL2023\PRN211\Assignment\Car Renting Management Application\Ass02Solution_NET1705_NguyenQuangVinh\CarRentingManagementWinApp_NQVinh\bin\Debug\net6.0-windows\Microsoft.Bcl.AsyncInterfaces.dll
+E:\FPT\FALL2023\PRN211\Assignment\Car Renting Management Application\Ass02Solution_NET1705_NguyenQuangVinh\CarRentingManagementWinApp_NQVinh\bin\Debug\net6.0-windows\Newtonsoft.Json.dll
+E:\FPT\FALL2023\PRN211\Assignment\Car Renting Management Application\Ass02Solution_NET1705_NguyenQuangVinh\CarRentingManagementWinApp_NQVinh\bin\Debug\net6.0-windows\YamlDotNet.dll

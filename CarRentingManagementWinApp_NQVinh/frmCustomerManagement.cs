@@ -1,4 +1,6 @@
-﻿using System;
+﻿using BusinessObjects;
+using Repositories;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -12,9 +14,20 @@ namespace CarRentingManagementWinApp_NQVinh
 {
     public partial class frmCustomerManagement : Form
     {
+        ICustomerRepository _customerRepository;
         public frmCustomerManagement()
         {
             InitializeComponent();
+            _customerRepository = new CustomerRepository();
         }
+
+        private List<Customer> GetAllCustomerList()
+        {
+            List<Customer> list = _customerRepository.GetAll();
+            if (list == null) return new List<Customer>();
+            return list;
+        }
+
+
     }
 }

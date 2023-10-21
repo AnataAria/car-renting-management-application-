@@ -7,6 +7,11 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <PackageReference Include="LanguageExt.Core" Version="4.4.6" />
+    <PackageReference Include="LanguageExtCommon" Version="0.1.5" />
+  </ItemGroup>
+
+  <ItemGroup>
     <ProjectReference Include="..\BusinessObjects\BusinessObjects.csproj" />
   </ItemGroup>
 	<ItemGroup>
